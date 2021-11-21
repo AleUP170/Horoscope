@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">Horoscope</string>
+    <string name="app_name">Zodiac</string>
+    <string name="title">¡Encuentra tu zodiaco!</string>
+    <string name="name">Nombre</string>
+    <string name="date">Fecha de nacimiento</string>
+    <string name="numAcc">Número de cuenta</string>
+    <string name="email">Correo electrónico</string>
+    <string name="nameError">Por favor ingresa un nombre válido</string>
+    <string name="dateError">Por favor ingresa una fecha válida</string>
+    <string name="numError">Por favor ingresa un número de cuenta válido</string>
+    <string name="emailError">Por favor ingresa un correo válido</string>
+    <string name="input">Aceptar</string>
 </resources>

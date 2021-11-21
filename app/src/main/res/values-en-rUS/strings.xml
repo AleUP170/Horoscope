@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zodiac</string>
+    <string name="title">Find your zodiac!</string>
+    <string name="name">Name</string>
+    <string name="date">Date of birth</string>
+    <string name="numAcc">Account number</string>
+    <string name="email">Email</string>
+    <string name="nameError">Please input a valid name</string>
+    <string name="dateError">Please input a valid date</string>
+    <string name="numError">Please input a valid account number</string>
+    <string name="emailError">Please input a valid email</string>
+    <string name="input">Accept</string>
+</resources>
