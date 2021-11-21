@@ -6,9 +6,28 @@
     <string name="date">Date of birth</string>
     <string name="numAcc">Account number</string>
     <string name="email">Email</string>
-    <string name="nameError">Please input a valid name</string>
+    <string name="nameError">Please input a valid name (Longer than two characters)</string>
     <string name="dateError">Please input a valid date</string>
-    <string name="numError">Please input a valid account number</string>
+    <string name="numError">Please input a valid account number (Must be 9 digits)</string>
     <string name="emailError">Please input a valid email</string>
     <string name="input">Accept</string>
+    <string name="nameResult">Hello %1$s!</string>
+    <string name="ageResult">You\'re %1$s years old</string>
+    <string name="emailResult">Your email is %1$s</string>
+    <string name="accountResult">Your account number is %1$s</string>
+    <string name="zodiacResult">Your chinese zodiac animal is:</string>
+    <string-array name="zodiacAnimals">
+        <item>Rat</item>
+        <item>Ox</item>
+        <item>Tiger</item>
+        <item>Rabbit</item>
+        <item>Dragon</item>
+        <item>Snake</item>
+        <item>Horse</item>
+        <item>Goat</item>
+        <item>Monkey</item>
+        <item>Roster</item>
+        <item>Dog</item>
+        <item>Pig</item>
+    </string-array>
 </resources>

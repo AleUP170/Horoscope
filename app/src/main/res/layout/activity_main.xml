@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background2"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/title"
         android:layout_width="350dp"
-        android:layout_height="70dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/aldrich"
         android:text="@string/title"
         android:textAlignment="center"
-        android:textSize="30sp"
+        android:textColor="@color/darkZodiacRed"
+        android:textSize="40sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -29,11 +32,14 @@
         android:focusable="false"
         android:hint="@string/date"
         android:textAlignment="center"
+        android:textColor="@color/zodiacRed"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.55" />
+        app:layout_constraintVertical_bias="0.60"
+        tools:ignore="TextContrastCheck"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/mailInput"
@@ -43,11 +49,14 @@
         android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:textAlignment="center"
+        android:textColor="@color/zodiacRed"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.7" />
+        app:layout_constraintVertical_bias="0.75"
+        tools:ignore="TextContrastCheck"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/accountInput"
@@ -57,11 +66,14 @@
         android:hint="@string/numAcc"
         android:inputType="number"
         android:textAlignment="center"
+        android:textColor="@color/zodiacRed"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.39999998" />
+        app:layout_constraintVertical_bias="0.45"
+        tools:ignore="TextContrastCheck"
+        android:importantForAutofill="no" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/nameInput"
@@ -69,17 +81,25 @@
         android:layout_height="60dp"
         android:hint="@string/name"
         android:textAlignment="center"
+        android:textColor="@color/zodiacRed"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.25" />
+        app:layout_constraintVertical_bias="0.30"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/darkZodiacRed"
+        android:backgroundTintMode="add"
+        android:fontFamily="@font/aldrich"
         android:text="@string/input"
+        android:textStyle="bold"
+        app:iconTint="@color/darkZodiacRed"
+        app:iconTintMode="add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

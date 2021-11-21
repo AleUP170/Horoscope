@@ -5,9 +5,28 @@
     <string name="date">Fecha de nacimiento</string>
     <string name="numAcc">Número de cuenta</string>
     <string name="email">Correo electrónico</string>
-    <string name="nameError">Por favor ingresa un nombre válido</string>
+    <string name="nameError">Por favor ingresa un nombre válido (Mayor a 2 caracteres)</string>
     <string name="dateError">Por favor ingresa una fecha válida</string>
-    <string name="numError">Por favor ingresa un número de cuenta válido</string>
+    <string name="numError">Por favor ingresa un número de cuenta válido (Deben de ser 9 sigitos)</string>
     <string name="emailError">Por favor ingresa un correo válido</string>
     <string name="input">Aceptar</string>
+    <string name="nameResult">¡Hola %1$s!</string>
+    <string name="ageResult">Tienes %1$s años</string>
+    <string name="emailResult">Tu correo es: %1$s</string>
+    <string name="accountResult">"Tu numero de cuenta es %1$s: "</string>
+    <string name="zodiacResult">Tu animal del zodiaco chino es: </string>
+    <string-array name="zodiacAnimals">
+        <item>Rata</item>
+        <item>Búfalo</item>
+        <item>Tigre</item>
+        <item>Conejo</item>
+        <item>Dragón</item>
+        <item>Serpiente</item>
+        <item>Caballo</item>
+        <item>Cabra</item>
+        <item>Mono</item>
+        <item>Gallo</item>
+        <item>Perro</item>
+        <item>Cerdo</item>
+    </string-array>
 </resources>
